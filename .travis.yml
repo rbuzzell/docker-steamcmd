@@ -1,16 +1,8 @@
 sudo: required
-services:
-  - docker
 
 language: generic
 
-addons:
-  apt:
-    packages:
-    - curl
-    - lib32gcc1
-
 before_install:
   - docker build -t rbuzzell/steamcmd .
-  - docker login -u "$HUB_USERNAME" -p "$HUB_PASSWORD"
+  - docker login -u $(HUB_USERNAME) -p $(HUB_PASSWORD)
   - docker push rbuzzell/steamcmd
