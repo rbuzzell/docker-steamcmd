@@ -13,7 +13,7 @@ RUN cd /home/steam
 
 # Setup Steam
 RUN su - steam
-RUN mkdir ~/Steam && cd ~/Steam
+RUN mkdir /home/steam/Steam && cd /home/steam/Steam
 RUN curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
 
 
