@@ -9,4 +9,4 @@ addons:
     - lib32gcc1
 
 before_install:
-  - dockerbuild -t rbuzzell/steamcmd .
+  - docker build -t rbuzzell/steamcmd .
