@@ -12,3 +12,5 @@ addons:
 
 before_install:
   - docker build -t rbuzzell/steamcmd .
+  - docker login -u "$HUB_USERNAME" -p "$HUB_PASSWORD"
+  - docker push rbuzzell/steamcmd
