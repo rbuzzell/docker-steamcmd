@@ -2,5 +2,11 @@ sudo: required
 services:
   - docker
 
+addons:
+  apt:
+    packages:
+    - curl
+    - lib32gcc1
+
 before_install:
   - dockerbuild -t rbuzzell/steamcmd

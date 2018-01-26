@@ -3,10 +3,6 @@ FROM ubuntu
 
 MAINTAINER Ryan Buzzell <ryan@buzzell.io>
 
-# Prerequisites for steam
-RUN apt-get update -qq
-RUN apt-get install -qq lib32gcc1 curl
-
 # Create the steam user
 RUN useradd -m steam
 RUN cd /home/steam
