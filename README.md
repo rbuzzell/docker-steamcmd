@@ -1,2 +1,2 @@
 Master branch buuild:
-![master branch build status](https://travis-ci.org/rbuzzell/docker-steamcmd.svg?branch=master)
+[![Build Status](https://travis-ci.org/rbuzzell/docker-steamcmd.svg?branch=master)](https://travis-ci.org/rbuzzell/docker-steamcmd)
