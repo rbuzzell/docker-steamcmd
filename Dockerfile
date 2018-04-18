@@ -1,4 +1,4 @@
-# Let's use alpine and see what happens 
+# Let's use ubuntu and see what happens 
 FROM ubuntu
 
 MAINTAINER Ryan Buzzell <ryan@buzzell.io>
